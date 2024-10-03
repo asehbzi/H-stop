@@ -1,11 +1,11 @@
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
-    Title = "你的脚本名称（H）",
-    Text = "正在加载（H）",
+    Title = "你的脚本H",
+    Text = "正在加载H脚本",
     Duration = 5, 
 })
-print("反挂机开启")
+print("HVT帮你开启了反挂机")
 		local vu = game:GetService("VirtualUser")
 		game:GetService("Players").LocalPlayer.Idled:connect(function()
 		   vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
@@ -153,14 +153,6 @@ Tab:AddButton({
 	Callback = function()
 	
 loadstring(game:HttpGet("https://pastefy.app/Z7DawZJB/raw"))()
-
-end
-})
-Tab:AddButton({
-	Name = "索尼克",
-	Callback = function()
-
-loadstring(game:HttpGet("https://pastebin.com/raw/7V1mUBtQ"))()
 
 end
 })
