@@ -30,10 +30,10 @@ local Tab = Window:MakeTab({
   PremiumOnly = false
   })
 Tab:AddButton({
-	Name = "飞",
+	Name = "飞行",
 	Callback = function()
 
-loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\90\66\122\99\84\109\49\102\34\41\41\40\41\10")()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/asehbzi/H-/refs/heads/main/H%E9%A3%9E%E8%A1%8C"))()
 
 end
 })
@@ -115,6 +115,14 @@ Tab:AddButton({
 	Callback = function()
 	
 loadstring(game:HttpGet(('https://pastefy.app/xXkUxA0P/raw'),true))()
+
+end
+})
+Tab:AddButton({
+	Name = "无头加kor",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Permanent-Headless-And-korblox-Script-4140"))()
 
 end
 })
@@ -278,6 +286,19 @@ local Tab = Window:MakeTab({
 	Callback = function()
 	
 loadstring(game:HttpGet(('https://github.com/DocYogurt/Main/raw/main/Scripts/Pressure')))()
+
+end
+})
+local Tab = Window:MakeTab({
+  Name = "战争大亨",
+  Icon = "rbxassetid://4483345998",
+  PremiumOnly = false
+  })
+  Tab:AddButton({
+	Name = "自动偷箱",
+	Callback = function()
+	
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Cazzanos/The-basement/main/Basement%20hub', true))()
 
 end
 })
