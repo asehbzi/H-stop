@@ -302,3 +302,24 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Cazzanos/The-basement
 
 end
 })
+local Tab = Window:MakeTab({
+  Name = "da hood",
+  Icon = "rbxassetid://4483345998",
+  PremiumOnly = false
+  })
+  Tab:AddButton({
+	Name = "不知名中心",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DHBCommunity/DHBOfficialScript/main/FinallyV4"))()
+
+end
+})
+Tab:AddButton({
+	Name = "自瞄",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yzeedw/Mortalv2-main/main/mortal.cc/ekittens/mc%20target%20v0.3"))()
+
+end
+})
