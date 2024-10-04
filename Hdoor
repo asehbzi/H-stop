@@ -164,6 +164,14 @@ loadstring(game:HttpGet("https://pastebin.com/raw/7V1mUBtQ"))()
 
 end
 })
+Tab:AddButton({
+	Name = "琦玉改JUN",
+	Callback = function()
+	
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Tp%20exploit%20saitama%20to%20jun'))()
+
+end
+})
 local Tab = Window:MakeTab({
   Name = "GB",
   Icon = "rbxassetid://4483345998",
