@@ -172,6 +172,22 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69
 
 end
 })
+Tab:AddButton({
+	Name = "死神v2",
+	Callback = function()
+	
+getgenv().Music = false 
+--Setting this to false usually fixes most executors
+--also it helps load time a little bit
+getgenv().AttackQuality = 'High'
+--Set to Low,High
+
+ getgenv().ConstantSpeed = false
+--if you want your speed to be constant
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua"))()
+
+end
+})
 local Tab = Window:MakeTab({
   Name = "GB",
   Icon = "rbxassetid://4483345998",
