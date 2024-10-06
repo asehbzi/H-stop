@@ -288,14 +288,7 @@ loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105
 
 end
 })
-Tab:AddButton({
-	Name = "MS汉化",
-	Callback = function()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/nnzhonhxin/114514/refs/heads/main/DOORS.txt"))()
-
-end
-})
 Tab:AddButton({
 	Name = "rooms&doors",
 	Callback = function()
