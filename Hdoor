@@ -196,6 +196,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Medley-Taboritsky/Rob
 
 end
 })
+Tab:AddButton({
+	Name = "饿狼不知道该叫什么",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/ARCAURA.lua"))()
+
+end
+})
 
 local Tab = Window:MakeTab({
   Name = "GB",
