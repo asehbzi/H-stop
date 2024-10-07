@@ -366,3 +366,34 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/yzeedw/Mortalv2-main/
 
 end
 })
+local Tab = Window:MakeTab({
+  Name = "ohio",
+  Icon = "rbxassetid://4483345998",
+  PremiumOnly = false
+  })
+  Tab:AddButton({
+	Name = "1",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PUSCRIPTS/C-BRING/refs/heads/main/PINGUIN-CBRING-PHONE"))()
+
+end
+})
+
+Tab:AddButton({
+	Name = "自动印钞",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PUSCRIPTS/MONEY-PRINTER-YAY/main/MONEY"))()
+
+end
+})
+
+Tab:AddButton({
+	Name = "远程买东西",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PUSCRIPTS/OHIOVFUCKIN3/refs/heads/main/FUCKOHIOPU"))()
+
+end
+})
