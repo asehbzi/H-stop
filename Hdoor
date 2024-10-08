@@ -647,10 +647,18 @@ end
 })
 
 Tab:AddButton({
-	Name = "远程买东西",
+	Name = "2",
 	Callback = function()
 	
 loadstring(game:HttpGet("https://raw.githubusercontent.com/PUSCRIPTS/OHIOVFUCKIN3/refs/heads/main/FUCKOHIOPU"))()
+
+end
+})
+Tab:AddButton({
+	Name = "物品透视",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/asehbzi/good/refs/heads/main/good"))()
 
 end
 })
