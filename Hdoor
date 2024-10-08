@@ -461,6 +461,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/ref
 
 end
 })
+Tab:AddButton({
+	Name = "索尼克改TOJI",
+	Callback = function()
+	
+loadstring(game:HttpGet"https://raw.githubusercontent.com/Wi-sp/Limitless-legacy/refs/heads/main/GUI")()
+
+end
+})
 
 local Tab = Window:MakeTab({
   Name = "GB",
